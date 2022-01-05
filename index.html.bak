@@ -7,7 +7,7 @@
 <title>Chatbot</title>
 </head>
 <body>
-<div class="center-all">
+<div class="parent container d-flex justify-content-center align-items-center h-100">
 	<div class="main text-white pt-3">
 		<div class="container px-5">
 			<h1>IRIS</h1>
@@ -20,7 +20,6 @@
 			</div>
 				<div class="faq">
 					<strong>Frequently Asked Question&nbsp;&nbsp;<strong class="question-icon">?</strong></strong>
-					<div class="faq-que">
 						<div class="faq-box">
 							<span class="dot"></span>
 							<p>Can I redeem my FB before the original term?</p>
@@ -36,6 +35,7 @@
 						<div class="faq-box">
 							<span class="dot"></span>
 							<p>What is the tenure of Fixed Deposit?</p>
+						</div>
 						</div>
 					</div>
 					<div class="button"><a><span><img src="chatting.png" alt="message-icon"></span>&nbsp;Start a New Conversation</a></div>

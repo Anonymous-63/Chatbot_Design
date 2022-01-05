@@ -8,7 +8,7 @@ body{
 .parent{
 	min-height: 100vh;
 	z-index: -1;
-	box-shadow: 10px 10px 10px 10px 10px rgba(0,0,0,0.3);
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
 }
 .main{
 	width: 360px;
@@ -63,7 +63,6 @@ img{
 	font-size: 20px;
 	font-weight: bold;
 	color: #f87217;
-	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	background: #;
@@ -73,7 +72,6 @@ img{
 .faq-box{
 	border: 1px solid #000;
 	margin-top: 15px;
-	justify-content: left;
 	border-radius: 6px;
 	margin-right: 5%;
 	height: 40px;
@@ -81,6 +79,7 @@ img{
 
 .dot {
 	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: 5%;
 	height: 10px;
 	float: left;
@@ -95,7 +94,7 @@ img{
 	margin-top: 3.5%;
 	padding-left: 10px;
 	font-size: 0.8em;
-	float: left;
+	float: center;
 }
 
 .button{
@@ -107,7 +106,7 @@ img{
 	margin-top: 10%;
 	margin-right: 15%;
 	margin-left: 10%;
-	box-shadow: 0px 6px 7px rgba(0,0,0,0.1);
+	box-shadow: 0px 7px 7px rgba(0,0,0,0.2);
 	
 }
 
@@ -119,4 +118,22 @@ img{
 .button img {
 	height: 20px;
 	width: 20px;
+}
+
+.faq{
+	animation: slide-up 4s;
+}
+
+.container{
+	animation: slide-up 3s;
+}
+@keyframes slide-up {
+		from{
+			opacity: 0.2;
+			line-height: 200px;
+		}	
+		to{
+			opacity: 1;
+			line-height: 25px;
+		}
 }
