@@ -3,6 +3,8 @@ body{
 	display: fixed;
 	align-items: center;
 	justify-content: center;
+	background-color: #DDE8E4
+	z-index: -1;
 }
 
 .parent{

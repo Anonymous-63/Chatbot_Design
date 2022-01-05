@@ -3,11 +3,11 @@ body{
 	display: fixed;
 	align-items: center;
 	justify-content: center;
+	background-color: #DDE8E4;
 }
 
 .parent{
 	min-height: 100vh;
-	z-index: -1;
 }
 .main{
 	width: 360px;
