@@ -7,7 +7,7 @@
 <title>Chatbot</title>
 </head>
 <body>
-<div class="parent container d-flex justify-content-center align-items-center h-100">
+<div class="center-all">
 	<div class="main text-white pt-3">
 		<div class="container px-5">
 			<h1>IRIS</h1>
