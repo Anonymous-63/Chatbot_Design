@@ -8,7 +8,6 @@ body{
 .parent{
 	min-height: 100vh;
 	z-index: -1;
-	box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
 }
 .main{
 	width: 360px;
@@ -121,7 +120,7 @@ img{
 }
 
 .faq{
-	animation: slide-up 4s;
+	animation: slide-up 3.5s;
 }
 
 .container{
